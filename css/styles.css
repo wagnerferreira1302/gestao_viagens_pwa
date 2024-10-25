@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+#expense-list {
+    list-style-type: none; /* Remove as bolinhas padrão da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+#expense-list {
+    list-style-type: none; /* Remove as bolinhas padrão da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+#expense-list li {
+    background-color: #e0e0e0; /* Cor de fundo dos itens da lista */
+    margin: 5px 0; /* Margem entre os itens */
+    padding: 10px; /* Preenchimento interno dos itens */
+    border-radius: 4px; /* Bordas arredondadas dos itens */
+    display: flex; /* Utiliza flexbox para alinhar itens */
+    justify-content: space-between; /* Espaço igual entre os itens */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+}
+
+.remove-button {
+    margin-left: auto; /* Move o botão para a direita */
+    border-radius: 12px; /* Deixa o botão mais arredondado */
+    padding: 5px 10px; /* Ajusta o preenchimento interno do botão */
+    background-color: #ff0004; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+    display: flex; /* Utiliza flexbox para alinhar conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+}
+
+.remove-button i {
+    margin-left: 1px; /* Espaçamento entre o texto e o ícone */
+}
+
+.remove-button:hover {
+    background-color: #b30021; /* Cor de fundo ao passar o mouse */
+}
+
+.edit-button {
+    margin-left: auto; /* Move o botão para a direita */
+    border-radius: 12px; /* Deixa o botão mais arredondado */
+    padding: 5px 10px; /* Ajusta o preenchimento interno do botão */
+    background-color: #04154c; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+    display: flex; /* Utiliza flexbox para alinhar conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+}
+
+.edit-button:hover {
+    background-color: #3273cd; /* Cor de fundo ao passar o mouse */
+}
+
+#total {
+    margin-top: 20px;
+}
+
+#total p {
+    font-size: 18px;
+    margin: 5px 0;
+}
