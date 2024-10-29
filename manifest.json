@@ -1,21 +1,43 @@
 {
     "name": "Gestão de Despesas em Viagens",
     "short_name": "Despesas",
-    "start_url": "/src/index",
+    "start_url": "src/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "description": "Um aplicativo para gerenciar despesas em viagens internacionais.",
     "icons": [
         {
-            "src": "/image/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
+          "src": "./image/icons/icon-72x72.png",
+          "type": "image/png", "sizes": "72x72"
         },
         {
-            "src": "/image/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
+          "src": "./image/icons/icon-96x96.png",
+          "type": "image/png", "sizes": "96x96"
+        },
+        {
+          "src": "./image/icons/icon-128x128.png",
+          "type": "image/png","sizes": "128x128"
+        },
+        {
+          "src": "./image/icons/icon-144x144.png",
+          "type": "image/png", "sizes": "144x144"
+        },
+        {
+          "src": "./image/icons/icon-152x152.png",
+          "type": "image/png", "sizes": "152x152"
+        },
+        {
+          "src": "./image/icons/icon-192x192.png",
+          "type": "image/png", "sizes": "192x192"
+        },
+        {
+          "src": "./image/icons/icon-384x384.png",
+          "type": "image/png", "sizes": "384x384"
+        },
+        {
+          "src": "./image/icons/icon-512x512.png",
+          "type": "image/png", "sizes": "512x512"
         }
-    ]
+      ]
 }
