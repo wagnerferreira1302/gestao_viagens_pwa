@@ -1,20 +1,20 @@
 {
     "name": "Gestão de Despesas em Viagens",
     "short_name": "Despesas",
-    "start_url": "/src/index",
+    "start_url": "src/view",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "description": "Um aplicativo para gerenciar despesas em viagens internacionais.",
     "icons": [
         {
-            "src": "/image/icon-192x192.png",
-            "sizes": "192x192",
+            "src": "/image/budget.png",
+            "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "/image/icon-512x512.png",
-            "sizes": "512x512",
+            "src": "/image/favicon.ico",
+            "sizes": "16x16",
             "type": "image/png"
         }
     ]
